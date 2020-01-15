@@ -48,6 +48,8 @@
                     <includes>
                         <include>**/*CukesRunner.java</include>
                     </includes>
+                    <parallel>methods</parallel>
+                    <useUnlimitedThreads></useUnlimitedThreads>
                 </configuration>
             </plugin>
             <plugin>

@@ -78,7 +78,6 @@ Feature: Pay Bills
       | New Zealand (dollar)  |
       | Singapore (dollar)    |
 
-  @wip
   Scenario: Error message for not selecting currency
     Given User is on Login page
     When the users enters the valid credentials
